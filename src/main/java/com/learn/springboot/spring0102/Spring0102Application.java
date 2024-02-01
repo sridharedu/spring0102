@@ -38,9 +38,6 @@ public class Spring0102Application {
 
 		Set<Person> synchronizedPersonSet = Collections.synchronizedSet(new HashSet<>());
 
-		Department department1 = new Department("1", "ece");
-		Department department2 = new Department("2", "AGBSC");
-
 		synchronizedPersonSet.add(person1);
 		synchronizedPersonSet.add(person2);
 		synchronizedPersonSet.add(person3);
